@@ -1,0 +1,21 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>GrapheneDB on CloudBees</display-name>
+
+  <servlet>
+    <servlet-name>App</servlet-name>
+    <servlet-class>com.example.App</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>App</servlet-name>
+    <url-pattern>/App</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>App</welcome-file>
+  </welcome-file-list>
+</web-app>
